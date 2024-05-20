@@ -47,6 +47,7 @@
             this.rdFAT = new System.Windows.Forms.RadioButton();
             this.lblTypeTitle = new System.Windows.Forms.Label();
             this.groupMC = new System.Windows.Forms.GroupBox();
+            this.rbRom = new System.Windows.Forms.RadioButton();
             this.groupPE = new System.Windows.Forms.GroupBox();
             this.rbFlow4 = new System.Windows.Forms.RadioButton();
             this.rbFull = new System.Windows.Forms.RadioButton();
@@ -55,7 +56,6 @@
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.pbFlow = new System.Windows.Forms.PictureBox();
             this.button3 = new System.Windows.Forms.Button();
-            this.rbRom = new System.Windows.Forms.RadioButton();
             this.groupMC.SuspendLayout();
             this.groupPE.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbFlow)).BeginInit();
@@ -239,6 +239,18 @@
             this.groupMC.TabStop = false;
             this.groupMC.Text = "MC";
             // 
+            // rbRom
+            // 
+            this.rbRom.AutoSize = true;
+            this.rbRom.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbRom.Location = new System.Drawing.Point(306, 57);
+            this.rbRom.Name = "rbRom";
+            this.rbRom.Size = new System.Drawing.Size(64, 24);
+            this.rbRom.TabIndex = 16;
+            this.rbRom.TabStop = true;
+            this.rbRom.Text = "ROM";
+            this.rbRom.UseVisualStyleBackColor = true;
+            // 
             // groupPE
             // 
             this.groupPE.Controls.Add(this.rbFlow4);
@@ -319,26 +331,14 @@
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Image = global::ECO.Properties.Resources.icons8_save_30;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(350, 408);
+            this.button3.Location = new System.Drawing.Point(351, 408);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(87, 43);
+            this.button3.Size = new System.Drawing.Size(86, 43);
             this.button3.TabIndex = 13;
             this.button3.Text = "Save";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.SaveClick);
-            // 
-            // rbRom
-            // 
-            this.rbRom.AutoSize = true;
-            this.rbRom.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbRom.Location = new System.Drawing.Point(306, 57);
-            this.rbRom.Name = "rbRom";
-            this.rbRom.Size = new System.Drawing.Size(64, 24);
-            this.rbRom.TabIndex = 16;
-            this.rbRom.TabStop = true;
-            this.rbRom.Text = "ROM";
-            this.rbRom.UseVisualStyleBackColor = true;
             // 
             // Comfirm
             // 
